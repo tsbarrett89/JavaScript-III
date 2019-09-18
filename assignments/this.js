@@ -12,11 +12,11 @@
 // Principle 1
 
 // code example for Window Binding
-    // function pasta(){
-    //     console.log(this.pastaType);
-    // }
-    // let pastaType = "spaghetti";
-    // pasta();
+    function pasta(){
+        console.log(this.pastaType);
+    }
+    window.pastaType = "spaghetti";
+    pasta();
     console.log(this)
 
 // Principle 2
